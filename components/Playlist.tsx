@@ -3,11 +3,10 @@ import { useState } from 'react'
 import { Text } from './Themed';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
-//import Swipeable from 'react-native-gesture-handler/Swipeable';
 import { RectButton } from 'react-native-gesture-handler';
 import CustomSwipeableRow from './CustomSwipeableRow';
 
-import DraggableFlatList from 'react-native-draggable-flatlist'
+import DraggableFlatList, { ScaleDecorator, }  from 'react-native-draggable-flatlist'
 
 import peopleList from '../assets/data/test/people.json';
 import musicList from '../assets/data/test/music.json';
@@ -58,9 +57,11 @@ const Playlist = () => {
     
     const SwipeableRow = ({ item, drag, clickHandler }: {item: MusicItem, drag: () => void, clickHandler: any}) => {
         return (
-            <CustomSwipeableRow onClick={clickHandler}>
-                <Row item={item} drag={drag}/>
-            </CustomSwipeableRow>
+            <ScaleDecorator>
+                <CustomSwipeableRow onClick={clickHandler}>
+                    <Row item={item} drag={drag}/>
+                </CustomSwipeableRow>
+            </ScaleDecorator>
         );
     };
 

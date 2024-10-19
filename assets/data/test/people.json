@@ -1,0 +1,102 @@
+[
+    {
+        "id": 0,
+        "name": "Paulo Pandeleiro",
+        "instruments": ["drums", "bass", "guitar", "vocals"],
+        "songs": [
+            {
+                "id": 3,
+                "name": "Eu tenho dois amores",
+                "times_played": 25
+            },
+            {
+                "id": 1,
+                "name": "Pneuma",
+                "times_played": 1000
+            },
+            {
+                "id": 2,
+                "name": "Weke Weke",
+                "times_played": 3
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Socras",
+        "instruments": ["vocals", "violin"],
+        "songs": [
+            {
+                "id": 2,
+                "name": "Weke Weke",
+                "times_played": 1000
+            },
+            {
+                "id": 7,
+                "name": "Redneck",
+                "times_played": 13
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Esteves",
+        "instruments": ["guitar", "synthesizer"],
+        "songs": [
+            {
+                "id": 2,
+                "name": "Weke Weke",
+                "times_played": 1000
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Tareco",
+        "instruments": ["bass"],
+        "songs": [
+            {
+                "id": 2,
+                "name": "Weke Weke",
+                "times_played": 1
+            },
+            {
+                "id": 0,
+                "name": "Genesis",
+                "times_played": 30
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Samuel Massas",
+        "instruments": ["vocals", "bass", "guitar", "synthesizer"],
+        "songs": [
+            {
+                "id": 2,
+                "name": "Weke Weke",
+                "times_played": 5
+            },
+            {
+                "id": 4,
+                "name": "Sonne",
+                "times_played": 1000
+            },
+            {
+                "id": 11,
+                "name": "Zagreus",
+                "times_played": 24
+            },
+            {
+                "id": 3,
+                "name": "Eu tenho dois amores",
+                "times_played": 1000
+            },
+            {
+                "id": 10,
+                "name": "Stranded",
+                "times_played": 1000
+            }
+        ]
+    }
+]

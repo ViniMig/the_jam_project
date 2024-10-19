@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "weJam",
-    "slug": "weJam",
+    "name": "the-jam-project",
+    "slug": "the-jam-project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/Landing_page.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

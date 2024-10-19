@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "name": "Genesis",
+        "author": "Devin Townsend",
+        "instruments": ["vocal", "guitar", "bass", "drums"]
+    },
+    {
+        "id": 1,
+        "name": "Pneuma",
+        "author": "Tool",
+        "instruments": ["vocal", "guitar", "bass", "drums"]
+    },
+    {
+        "id": 2,
+        "name": "Weke Weke",
+        "author": "Buraka Som Sistema",
+        "instruments": ["vocal", "vocal", "guitar", "bass", "drums"]
+    },
+    {
+        "id": 3,
+        "name": "Eu tenho dois amores",
+        "author": "Marco Paulo",
+        "instruments": ["vocal", "guitar", "rhythm guitar", "bass", "drums"]
+    },
+    {
+        "id": 4,
+        "name": "Sonne",
+        "author": "Rammstein",
+        "instruments": ["vocal", "guitar", "bass", "drums", "synthesizer"]
+    },
+    {
+        "id": 5,
+        "name": "Place for my head",
+        "author": "Linkin Park",
+        "instruments": ["vocal", "vocal", "guitar", "bass", "drums"]
+    },
+    {
+        "id": 6,
+        "name": "Legion",
+        "author": "Tesseract",
+        "instruments": ["vocal", "guitar", "bass", "drums", "synthesizer"]
+    },
+    {
+        "id": 7,
+        "name": "Redneck",
+        "author": "Los Corderos de Dios",
+        "instruments": ["vocal", "guitar", "bass", "drums"]
+    },
+    {
+        "id": 8,
+        "name": "Reptile",
+        "author": "Periphery",
+        "instruments": ["vocal", "guitar", "bass", "drums", "keyboard"]
+    },
+    {
+        "id": 9,
+        "name": "In Waves",
+        "author": "Trivium",
+        "instruments": ["vocal", "guitar", "bass", "drums"]
+    },
+    {
+        "id": 10,
+        "name": "Stranded",
+        "author": "Gojira",
+        "instruments": ["vocal", "guitar", "bass", "drums"]
+    },
+    {
+        "id": 11,
+        "name": "Zagreus",
+        "author": "Periphery",
+        "instruments": ["vocal", "guitar", "bass", "drums"]
+    }
+]

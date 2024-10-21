@@ -1,6 +1,7 @@
 import { StyleSheet, View, I18nManager } from 'react-native'
 import { useState } from 'react'
 import { Text } from './Themed';
+import { router } from 'expo-router';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 import { RectButton } from 'react-native-gesture-handler';
@@ -38,12 +39,11 @@ const Playlist = () => {
 
     // Handle swipe actions
     const handleDelete = (id: number) => {
-        console.log('[Handle DELETE]', id);
         setMusics(musics.filter(song => song.id !== id));
     };
 
     const Row = ({ item, drag }: { item: MusicItem; drag: () => void }) => (
-            <RectButton style={styles.rectButton} onLongPress={drag} onPress={() => window.alert(item.name)}>
+            <RectButton style={styles.rectButton} onLongPress={drag} onPress={() => router.push({pathname: "./songDetails/[id]", params: {id: item.id.toString(), songTitle: item.name}})}>
                 <View style={styles.songItem}>
                     <Text style={styles.songTitle}>{item.name}</Text>
                     <Text style={styles.songAuthor}>{item.author}</Text>

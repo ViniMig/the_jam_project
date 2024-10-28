@@ -16,12 +16,12 @@ const ScrollableList = ( {title}:any ) => {
             onPress={() => {
                 //   router.push(`/search/${item}`)
                 }}>
-                <Text style={styles.title}>{item}</Text>
+                <Text style={styles.item}>{item}</Text>
             </TouchableOpacity>
         )}
         keyExtractor={item => item}
-        contentContainerStyle={{ gap: 10 }}
-        horizontal
+        contentContainerStyle={{ gap: 10, }}
+        style={styles.listContainer}
         />
     </View>
   )
@@ -31,21 +31,31 @@ const styles = StyleSheet.create({
     container: {
       flex: 1,
       alignItems: 'flex-start',
-      justifyContent: 'center',
-      gap: 20,
+      width: '100%',
+      padding: 10,
+    },
+    listContainer: {
+      width: '100%',
     },
     title: {
       fontSize: 20,
       fontWeight: 'bold',
+      color: '#fff',
+      marginVertical: 20,
     },
+    item: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      color: '#fff'
+      },
     tab: {
       paddingVertical: 10,
       paddingHorizontal: 10,
       borderRadius: 5,
       borderWidth: 1,
       backgroundColor: "grey",
-      height: 200,
-      width: 300,
+      height: 60,
+      width: '90%',
     },
   });
   

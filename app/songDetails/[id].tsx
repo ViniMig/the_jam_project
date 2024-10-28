@@ -58,15 +58,19 @@ export default function DetailsScreen() {
                 );
             }}
             />
+            <TouchableOpacity style={styles.confirmButton} onPress={() => window.alert('touchy touchy')}>
+                <Text style={styles.buttonText}>CONFIRM</Text>
+            </TouchableOpacity>
         </View>
     );
 }
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     paddingVertical: 20,
     paddingHorizontal: 10,
-    gap: 20,
+    justifyContent: 'space-between',
   },
   songTitle: {
       fontSize: 20,
@@ -78,6 +82,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     color: '#fff',
+    marginVertical: 20,
   },
   musicianContainer: {
     gap: 5,
@@ -128,6 +133,22 @@ const styles = StyleSheet.create({
   },
   instruments: {
     fontSize: 16,
+    color: '#fff',
+  },
+  confirmButton: {
+    height: 80,
+    width: '80%',
+    paddingVertical: 5,
+    paddingHorizontal: 10,
+    alignSelf: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 5,
+    backgroundColor: '#4f79e3',
+  },
+  buttonText: {
+    fontSize: 24,
+    fontWeight: 'bold',
     color: '#fff',
   },
 });

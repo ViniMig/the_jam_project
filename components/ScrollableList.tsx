@@ -2,7 +2,7 @@ import { StyleSheet, FlatList, TouchableOpacity } from 'react-native'
 import { Text, View } from './Themed';
 import React from 'react'
 
-const jamListTest = ["jams das quintas", "jam sensations", "irokumata", "aiaiai o cu do teu pai"];
+const jamListTest = ["Samuel Massas", "Fabio Cigano", "Jonas Pistolas", "Anthony", "Rouxinol Faduncho"];
 
 const ScrollableList = ( {title}:any ) => {
   return (
@@ -13,9 +13,7 @@ const ScrollableList = ( {title}:any ) => {
         renderItem={({ item }) => (
             <TouchableOpacity 
             style={styles.tab} 
-            onPress={() => {
-                //   router.push(`/search/${item}`)
-                }}>
+            onPress={() => {window.alert('wiihooo');}}>
                 <Text style={styles.item}>{item}</Text>
             </TouchableOpacity>
         )}

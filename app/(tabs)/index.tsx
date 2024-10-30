@@ -1,9 +1,7 @@
 import { StyleSheet, SafeAreaView } from 'react-native';
-import { Text, View } from '../../components/Themed';
+import { View } from '../../components/Themed';
 import Playlist from '../../components/Playlist';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-
-const jamListTest = ["jams das quintas", "jam sensations", "irokumata", "aiaiai o cu do teu pai"];
 
 export default function TabOneScreen() {
   return (

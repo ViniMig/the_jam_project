@@ -5,9 +5,7 @@ import { Text, View } from '../../components/Themed';
 import ScrollableList from '../../components/ScrollableList';
 import { FontAwesome } from '@expo/vector-icons';
 
-const jamListTest = ["jams das quintas", "jam sensations", "irokumata", "aiaiai o cu do teu pai"];
-
-export default function TabOneScreen() {
+export default function TabTwoScreen() {
   return (
     <SafeAreaView style={styles.container}>
             <ScrollableList
@@ -39,7 +37,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#4f79e3',
     borderRadius: 5,
     padding: 10,
-    alignSelf: 'center'
+    alignSelf: 'center',
+    marginBottom: 10,
   },
   buttonText: {
     fontSize: 24,

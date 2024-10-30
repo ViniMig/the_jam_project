@@ -43,7 +43,7 @@ const Playlist = () => {
     };
 
     const Row = ({ item, drag }: { item: MusicItem; drag: () => void }) => (
-            <RectButton style={styles.rectButton} onLongPress={drag} onPress={() => router.push({pathname: "./songDetails/[id]", params: {id: item.id.toString(), songTitle: item.name, songAuthor: item.author}})}>
+            <RectButton style={styles.rectButton} onLongPress={drag} onPress={() => router.navigate({pathname: "./songDetails/[id]", params: {id: item.id.toString(), songTitle: item.name, songAuthor: item.author}})}>
                 <View style={styles.songItem}>
                     <Text style={styles.songTitle}>{item.name}</Text>
                     <Text style={styles.songAuthor}>{item.author}</Text>
